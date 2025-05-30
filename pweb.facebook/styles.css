@@ -1,0 +1,79 @@
+body {
+    background-color: #f2f4f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titulo {
+    color: #0866ff;
+    font-size: 70px;
+}
+.div-direita {
+    /background-color: red;/
+    flex: 1;
+    flex-direction: column;
+    height: 800px;
+}
+
+.div-esquerda {
+    /background-color: blue;/
+    flex: 1;
+}
+.div-esquerda div {
+    /background-color: green;/
+    width: 400px;
+}
+.texto {
+    font-size: 20px;
+}
+.card-login {
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.flex-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.entrar {
+    border: 3px solid #0866ff;
+    border-radius: 5px;
+    background-color: #0866ff;
+    color: #fff;
+    padding: 15px;
+    margin: 20px;
+}
+.caixa {
+    border: 1px solid #00000042;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 3px;
+    width: 320px;
+}
+.senha {
+    color: #0866ff;   
+    margin: 0 auto; 
+    margin-bottom: 15px;
+}
+
+.contan {
+    background-color: rgb(60, 190, 60);
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #00000042;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+}
