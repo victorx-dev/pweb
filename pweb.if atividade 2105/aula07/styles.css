@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 50px;
+    gap: 150px;
+}
+.bar {
+    border: 1px solid gray;
+    height: 40px;
+    border-radius: 15px;
+    height: 35px;
+    width: 75%;
+    box-shadow: 0px 1px 5px grey;
+    padding-left: 15px;
+}
+.main {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+    position: relative;
+    color: gray;
+
+}
+.caixa {
+    display: flex;
+    gap: 70px;
+    color: grey;
+}
+img { 
+    width: 400px;
+}
+.caixa1 {
+    display: flex;
+    justify-content: end;
+    height: 150px;
+    gap: 15px;
+    color: #808080;
+}
+.brasil {
+    display: flex;
+    justify-content: start;
+}
+.bra {
+    justify-content: start;
+    height: 100%;
+    width: 100%;
+}
+.caixa-cima {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: end;
+    color: gray;
+    align-items: center;
+}
+.login {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+.gb_B {
+    width: 15px;
+    height: 15px;
+    color: gray;
+}
